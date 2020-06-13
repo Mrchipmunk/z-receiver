@@ -1,0 +1,22 @@
+{
+    "name": "Z RECEIVER",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "burglar alarm": "github:mrchipmunk/ringburglaralarm#master",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
